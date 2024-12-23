@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Descriptive Statistics"
+title:  "Standardization of Normal Variables"
 date:   2024-12-12 13:26:19 -0500
 categories: jekyll update
 author: "Olga Durham"
