@@ -3,6 +3,7 @@ layout: post
 title:  "Core features of the Pandas library"
 date:   2024-12-10 13:26:19 -0500
 categories: jekyll update
+author: "Olga Durham"
 ---
 
 [Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Pandas_Class.ipynb)
