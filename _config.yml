@@ -16,12 +16,13 @@
 title: Machine Learning Portfolio
 email: shap0011@algonquinlive.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This portfolio showcases a collection of in-class labs and home assignments completed 
-  during the Fall 2024 semester as part of the Business Intelligence System Infrastructure (BISI) 
-  program at Algonquin College.
+  A collection of in-class labs and home assignments completed during 
+  the Fall 2024 semester as part of the Business Intelligence System 
+  Infrastructure (BISI) program at Algonquin College.
 baseurl: "ml_portfolio" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
+twitter_username: 
 github_username:  shap0011
 
 # Build settings
