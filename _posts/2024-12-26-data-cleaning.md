@@ -68,5 +68,5 @@ In Data_Cleaning_Solution.ipynb, I focus on identifying and addressing issues in
 </ul>
 
 </details>
-
+<br>
 <p>This section highlights my ability to clean and preprocess data systematically, culminating in the creation of a cleaned dataset stored as `cleaned_df.csv`, which serves as the foundation for further analysis and model development.</p>
