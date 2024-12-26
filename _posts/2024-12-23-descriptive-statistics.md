@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Descriptive Statistics"
-date:   2024-12-11 13:26:19 -0500
+date:   2024-12-12 13:26:19 -0500
 categories: jekyll update
 author: "Olga Durham"
 ---

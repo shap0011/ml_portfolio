@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Data Visualization with Python"
-date:   2024-12-13 13:26:19 -0500
+date:   2024-12-14 13:26:19 -0500
 categories: jekyll update
 author: "Olga Durham"
 ---
