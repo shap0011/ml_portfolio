@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Exploratory Data Analysis (EDA)"
+title:  "Data Cleaning"
 date:   2024-12-15 13:26:19 -0500
 categories: jekyll update
 author: "Olga Durham"
