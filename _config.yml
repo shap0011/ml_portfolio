@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A collection of in-class labs and home assignments completed during 
   the Fall 2024 semester as part of the Business Intelligence System 
   Infrastructure (BISI) program at Algonquin College.
-baseurl: "ml_portfolio" # the subpath of your site, e.g. /blog
+baseurl: /ml_portfolio # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 twitter_username: 
