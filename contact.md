@@ -1,12 +1,12 @@
 ---
 layout: page
 title: About
-permalink: /about.html
+permalink: /contact.html
 ---
 
-# About
+# Contact
 
-Welcome to my Machine Learning Portfolio.
+My contacts:
 
 This portfolio showcases a collection of in-class labs and home assignments completed 
 during the Fall 2024 semester as part of the Business Intelligence Systems Infrastructure (BISI) 
