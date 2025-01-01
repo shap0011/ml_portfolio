@@ -6,6 +6,8 @@ categories: jekyll update
 author: "Olga Durham"
 ---
 
+# Data Cleaning
+
 [Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Data_Cleaning_Solution.ipynb)
 
 In <code>Data_Cleaning_Solution.ipynb</code>, I focus on identifying and addressing issues in the dataset, such as handling missing values, detecting and removing outliers, and ensuring data consistency to prepare it for effective model building.

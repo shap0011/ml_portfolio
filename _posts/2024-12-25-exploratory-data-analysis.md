@@ -6,6 +6,8 @@ categories: jekyll update
 author: "Olga Durham"
 ---
 
+# Exploratory Data Analysis (EDA)
+
 [Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/EDA_Solution.ipynb)
 
 In the `EDA_Solution.ipynb` file, I explore and analyze a real estate transaction dataset to uncover insights, identify patterns, and prepare the data for building a predictive pricing model.

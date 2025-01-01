@@ -6,6 +6,8 @@ categories: jekyll update
 author: "Olga Durham"
 ---
 
+# Data Visualization with Python
+
 [Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Data_Visualization.ipynb)
 
 The `Data_Visualization.ipynb` file explores data visualization techniques to gain insights, identify patterns, and draw conclusions using Python.

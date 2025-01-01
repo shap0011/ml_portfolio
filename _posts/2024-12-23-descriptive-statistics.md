@@ -6,6 +6,8 @@ categories: jekyll update
 author: "Olga Durham"
 ---
 
+# Descriptive Statistics
+
 [Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Goodlife_Fitness_Solution.ipynb)
 
 In the `Goodlife_Fitness_Solutions.ipynb` file, I perform a descriptive analysis to create customer profiles for each GoodLife Fitness membership option. This analysis explores key statistical insights and visualizations, covering the following topics:  

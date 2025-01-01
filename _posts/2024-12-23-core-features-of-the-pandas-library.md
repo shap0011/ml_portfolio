@@ -6,6 +6,8 @@ categories: jekyll update
 author: "Olga Durham"
 ---
 
+# Core features of the Pandas library
+
 [Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Pandas_Class.ipynb)
 
 In the `Pandas_class.ipynb` file, I explore the core features of the Pandas library, a vital tool for data manipulation in Python. The file covers the following topics: 

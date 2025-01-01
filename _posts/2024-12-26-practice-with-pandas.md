@@ -6,6 +6,8 @@ categories: jekyll update
 author: "Olga Durham"
 ---
 
+# Practice with Pandas
+
 [Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Forbes_Billionaire_Homework.ipynb)
 
 This section, the `Forbes_Billionaire_Homework.ipynb` file, showcases in-class practice with the Pandas library. It focuses on analyzing and manipulating a dataset containing information about billionaires from the Forbes 2020 list.
