@@ -6,7 +6,7 @@ permalink: /contact.html
 
 # Contact
 
-To contact me please enter your email and message into text fields below
+Please provide your email address and message in the fields below to get in touch with me.
 
 <form
   action="https://formspree.io/f/xdkkwdop"
