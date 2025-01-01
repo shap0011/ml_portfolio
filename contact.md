@@ -8,10 +8,10 @@ permalink: /contact.html
 
 My contacts:
 
-<form action="https://formspree.io/f/{form_id}" method="post">
-  <label for="email">Your Email</label>
-  <input name="Email" id="email" type="email">
-  <button type="submit">Submit</button>
+<form action="//formspree.io/shap0011@algonquinlive.com" method="post">
+  <input type="text" name="name">
+  <input type="email" name="_replyto">
+  <input type="submit" value="Send">
 </form>
 
 You can find the finalized files used for this portfolio at GitHub:
