@@ -8,11 +8,11 @@ permalink: /contact.html
 
 My contacts:
 
-<form action="//formspree.io/shap0011@algonquinlive.com" method="post">
+<!-- <form action="//formspree.io/shap0011@algonquinlive.com" method="post">
   <input type="text" name="name">
   <input type="email" name="_replyto">
   <input type="submit" value="Send">
-</form>
+</form> -->
 
 <form
   action="https://formspree.io/f/xdkkwdop"
