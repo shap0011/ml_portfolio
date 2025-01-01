@@ -14,7 +14,7 @@ This project, <code>Feature_Engineering_Solution.ipynb</code> file, focuses on f
 
 <details>
   <summary>Click to see details</summary>
-  <br>
+
 <ul>
   <li><strong>Mounting Google Drive in Google Colab:</strong>
     <ul>
