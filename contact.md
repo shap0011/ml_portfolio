@@ -8,20 +8,13 @@ permalink: /contact.html
 
 To contact me please enter your email and message into text fields below
 
-<!-- <form action="//formspree.io/shap0011@algonquinlive.com" method="post">
-  <input type="text" name="name">
-  <input type="email" name="_replyto">
-  <input type="submit" value="Send">
-</form> -->
-
 <form
   action="https://formspree.io/f/xdkkwdop"
   method="POST"
 >
   <p>Your email:</p><input type="email" name="email">
-  <p>Your message:</p><textarea name="message"></textarea>
+  <p>Your message:</p><textarea name="message"></textarea><br>
   
-  <!-- your other form fields go here -->
   <button type="submit">Send</button>
 </form>
 
