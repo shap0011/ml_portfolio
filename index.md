@@ -5,3 +5,5 @@
 layout: home
 permalink: /index.html
 ---
+
+Some content here. I can [add a link]({{ site.baseurl }}/example-post.html) here and so forth.
