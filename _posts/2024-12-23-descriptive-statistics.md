@@ -46,5 +46,5 @@ In the `Goodlife_Fitness_Solutions.ipynb` file, I perform a descriptive analysis
 </ul>
 
 </details>
-<br>
+
 <p>This case study demonstrates the application of descriptive statistics and visualization techniques to uncover actionable insights regarding fitness memberships.</p>

@@ -25,5 +25,5 @@ In the `Pandas_class.ipynb` file, I explore the core features of the Pandas libr
 </ul>
 
 </details>
-<br>
+
 <p>This project highlights practical skills in data handling.</p>  

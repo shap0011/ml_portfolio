@@ -206,5 +206,5 @@ The `Data_Visualization.ipynb` file explores data visualization techniques to ga
 </ul> 
 
 </details>
-<br>
+
 <p>The project highlights the use of powerful visualization libraries like Matplotlib and Seaborn to explore, analyze, and interpret data through various graphical representations, enabling insights into patterns, relationships, and distributions within the dataset.</p>

@@ -84,5 +84,5 @@ In the `EDA_Solution.ipynb` file, I explore and analyze a real estate transactio
 </ul>
 
 </details>
-<br>
+
 <p>This project creates a regression model to predict property transaction prices with a mean absolute error (MAE) of under $70,000, providing a data-driven alternative to traditional appraisal methods.</p>

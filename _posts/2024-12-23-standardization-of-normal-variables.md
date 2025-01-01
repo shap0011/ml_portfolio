@@ -41,5 +41,5 @@ In the `Z_score_Statistics.ipynb` file, I perform standardizing normal variables
 </ul>
 
 </details>
-<br>
+
 <p>This project highlights the use of Z-score standardization and the application of Python libraries to prepare data for further analysis.</p>

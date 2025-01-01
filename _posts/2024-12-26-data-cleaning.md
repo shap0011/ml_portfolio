@@ -70,5 +70,5 @@ In <code>Data_Cleaning_Solution.ipynb</code>, I focus on identifying and address
 </ul>
 
 </details>
-<br>
+
 <p>This section highlights my ability to clean and preprocess data systematically, culminating in the creation of a cleaned dataset stored as <code>cleaned_df.csv</code>, which serves as the foundation for further analysis and model development.</p>

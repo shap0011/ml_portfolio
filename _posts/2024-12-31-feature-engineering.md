@@ -109,7 +109,7 @@ This project, <code>Feature_Engineering_Solution.ipynb</code> file, focuses on f
 </ul>
 
 </details>
-<br>
+
 <p>By creating indicator variables, engineering interaction features, and encoding categorical variables, this project prepares a refined dataset for machine learning, culminating in a clean and ready-to-train model saved as <code>final.csv</code>.</p>
 
 

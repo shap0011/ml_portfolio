@@ -14,7 +14,7 @@ This section, the `Forbes_Billionaire_Homework.ipynb` file, showcases in-class p
 
 <details>
   <summary>Click to see details</summary>
-  
+
   <ul>
   <li><strong>Mounting Google Drive in Google Colab:</strong>Enables seamless access to files stored in Google Drive for data loading.</li>
   <li><strong>Importing the Pandas Library</strong></li>
@@ -95,6 +95,6 @@ This section, the `Forbes_Billionaire_Homework.ipynb` file, showcases in-class p
 </ul>
 
 </details>
-<br>
+
 <p>Through practical exercises, the dataset is explored using Pandas functions to extract insights, such as identifying the youngest billionaire, handling missing data, creating new columns, and filtering data based on specific criteria.</p>
 
