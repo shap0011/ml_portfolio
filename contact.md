@@ -6,7 +6,7 @@ permalink: /contact.html
 
 # Contact
 
-My contacts:
+To contact me please enter your email and message into text fields below
 
 <!-- <form action="//formspree.io/shap0011@algonquinlive.com" method="post">
   <input type="text" name="name">
@@ -18,14 +18,9 @@ My contacts:
   action="https://formspree.io/f/xdkkwdop"
   method="POST"
 >
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
+  <p>Your email:</p><input type="email" name="email">
+  <p>Your message:</p><textarea name="message"></textarea>
+  
   <!-- your other form fields go here -->
   <button type="submit">Send</button>
 </form>
