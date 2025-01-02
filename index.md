@@ -6,4 +6,4 @@ layout: home
 permalink: /index.html
 ---
 
-Some content [here]({{ site.baseurl }}/about.html).
+Some content [here]({{ site.baseurl }}/intro.html).

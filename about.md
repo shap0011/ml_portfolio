@@ -4,8 +4,6 @@ title: About
 permalink: /about.html
 ---
 
-# About
-
 Welcome to my Machine Learning Portfolio.
 
 This portfolio showcases a collection of in-class labs and home assignments completed 

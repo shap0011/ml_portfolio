@@ -1,10 +1,8 @@
 ---
 layout: page
-title: About
+title: Contact
 permalink: /contact.html
 ---
-
-# Contact
 
 Please provide your email address and message in the fields below to get in touch with me.
 
