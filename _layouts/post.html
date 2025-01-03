@@ -128,13 +128,13 @@
             width: 100%;
             padding: 20px;
         }
-        main {
+        main.clear {
             float: none;
             clear: left;
             width: 100%; 
             order: 1;
         }
-        aside {
+        aside.clear {
             float: none;
             clear: right;
             width: 100%;
@@ -167,10 +167,10 @@
             </a>
         </div>
     </header>
-    <main>
+    <main class="clear">
         {{ content }}
     </main>
-    <aside>
+    <aside class="clear">
         <h3>Resent Posts</h3>
         {% for post in site.posts %}
         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
