@@ -2,10 +2,19 @@
 ---
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    .wrapper {
+        background-image: url('ml_portfolio/assets/img/bg.jpg');
+        height: 100vh;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        padding: 0;
+    }
     .container {
         max-width: 1100px;
         margin: auto;
-        background-image: url('ml_portfolio/assets/img/bg.jpg');
     }
     a, p, ul li, ol li, h1, h2, h3, h4, h5, h6, details, label {
         font-family: "Open Sans", serif; 
@@ -120,33 +129,35 @@
         }
     }
 </style>
-<div class="container">
-    <header>
-        <div class="topnav">
-            <a href="{{ site.baseurl }}/index.html" class="active">Home</a>
-            <!-- Navigation links (hidden by default) -->
-            <div id="myLinks">
-              <a href="{{ site.baseurl }}/about.html">About</a>
-              <a href="{{ site.baseurl }}/contact.html">Contact</a>
+<div class="wrapper">
+    <div class="container">
+        <header>
+            <div class="topnav">
+                <a href="{{ site.baseurl }}/index.html" class="active">Home</a>
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                <a href="{{ site.baseurl }}/about.html">About</a>
+                <a href="{{ site.baseurl }}/contact.html">Contact</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                Menu
+                </a>
             </div>
-            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              Menu
-            </a>
-          </div>
-    </header>
-    <main>
-        {{ content }}
-    </main>
-    <aside>
-        <h3>Resent Posts</h3>
-        {% for post in site.posts %}
-        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-    </aside>
-    <footer>
-        <p>Copyright &copy; 2024-2025 Algonquin College, BISI, Olga Durham</p>
-    </footer>
+        </header>
+        <main>
+            {{ content }}
+        </main>
+        <aside>
+            <h3>Resent Posts</h3>
+            {% for post in site.posts %}
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </aside>
+        <footer>
+            <p>Copyright &copy; 2024-2025 Algonquin College, BISI, Olga Durham</p>
+        </footer>
+    </div>
 </div>
 <script>
     function myFunction() {
