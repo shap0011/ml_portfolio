@@ -25,25 +25,22 @@
         font-family: "Open Sans", serif; 
         font-size: 1.2rem !important; 
     }
-  /*  p, details p, label {
-        font-size: 1.2rem; 
-    }*/
     code {
         background-color: rgb(238, 206, 174);
     }
     li {
         list-style-type: none;
     }
-    header {
+    .header {
         grid-column: 1 /span 2;
         grid-row: 2;
     }
-    main {
+    .main {
         grid-column: 1;
         grid-row: 2;
        /* min-height: 300px;*/
     }
-    aside {
+    .aside {
         grid-column: 2;
         grid-row: 2;
         /*min-height: 300px;*/        
@@ -72,7 +69,7 @@
         background-color: rgb(238, 206, 174);
         color: black;
       }
-    footer {
+    .footer {
         grid-column: 1 / span 2;
         grid-row: 3;
         text-align: center;
@@ -133,20 +130,20 @@
             grid-template-columns: 1fr; /* Single column layout for mobile */
             grid-template-rows: auto auto auto auto; /* Stack items vertically */
         }
-        header {
+        .header {
             grid-column: 1;
             grid-row: 1;
         }
-        main {
+        .main {
             grid-column: 1; /* Main spans full width */
             grid-row: 2; /* Appears first */
         }
-        aside {
+        .aside {
             grid-column: 1; /* Sidebar spans full width */
             grid-row: 3; /* Appears second */
             text-align: center;
         }
-        footer {
+        .footer {
             grid-column: 1;
             grid-row: 4;
         }
@@ -156,13 +153,13 @@
         a, p, h1, h2, h3, h4, h5, h6, details, label, summary {
             font-size: 1rem !important;
         }
-        .topnav, .topnav a, button, footer {
+        .topnav, .topnav a, button, .footer {
             font-size: 1rem !important;
         }
     }
 </style>
 <div class="container">
-    <header>
+    <div class="header">
         <div class="topnav">
             <a href="{{ site.baseurl }}/index.html" class="active">Home</a>
             <!-- Navigation links (hidden by default) -->
@@ -175,19 +172,19 @@
             Menu
             </a>
         </div>
-    </header>
-    <main>
+    </div>
+    <div class="main">
         {{ content }}
-    </main>
-    <aside>
+    </div>
+    <div class="aside">
         <h3>Resent Posts</h3>
         {% for post in site.posts %}
         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
-    </aside>
-    <footer>
+    </div>
+    <div class="footer">
         <p>Copyright &copy; 2024-2025 Algonquin College, BISI, Olga Durham</p>
-    </footer>
+    </div>
 </div>
 <script>
     function myFunction() {
