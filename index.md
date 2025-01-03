@@ -8,4 +8,4 @@ permalink: /index.html
 
 Click [here]({{ site.baseurl }}/intro.html) to read Intro.
 
-<img src="/ml_portfolio/assets/img/olga-durham-beach-170-800x.jpg" alt="The Ocean">
+<img src="/ml_portfolio/assets/img/olga-durham-beach-170-800x.jpg" class="img-responsive" alt="The Ocean">
