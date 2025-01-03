@@ -17,6 +17,7 @@
     .container {
         display: grid;
         grid-template-columns: 3fr 1fr;
+        grid-template-rows: auto auto auto;
         gap: 20px;
         max-width: 1100px;
         margin: auto;
@@ -31,16 +32,16 @@
     li {
         list-style-type: none;
     }
-    .header {
+    header {
         grid-column: 1 /span 2;
         grid-row: 2;
     }
-    .main {
+    main {
         grid-column: 1;
         grid-row: 2;
        /* min-height: 300px;*/
     }
-    .aside {
+    aside {
         grid-column: 2;
         grid-row: 2;
         /*min-height: 300px;*/        
@@ -69,7 +70,7 @@
         background-color: rgb(238, 206, 174);
         color: black;
       }
-    .footer {
+    footer {
         grid-column: 1 / span 2;
         grid-row: 3;
         text-align: center;
@@ -130,20 +131,20 @@
             grid-template-columns: 1fr; /* Single column layout for mobile */
             grid-template-rows: auto auto auto auto; /* Stack items vertically */
         }
-        .header {
+        header {
             grid-column: 1;
             grid-row: 1;
         }
-        .main {
+        main {
             grid-column: 1; /* Main spans full width */
             grid-row: 2; /* Appears first */
         }
-        .aside {
+        aside {
             grid-column: 1; /* Sidebar spans full width */
             grid-row: 3; /* Appears second */
             text-align: center;
         }
-        .footer {
+        footer {
             grid-column: 1;
             grid-row: 4;
         }
@@ -159,7 +160,7 @@
     }
 </style>
 <div class="container">
-    <div class="header">
+    <header>
         <div class="topnav">
             <a href="{{ site.baseurl }}/index.html" class="active">Home</a>
             <!-- Navigation links (hidden by default) -->
@@ -172,19 +173,19 @@
             Menu
             </a>
         </div>
-    </div>
-    <div class="main">
+    </header>
+    <main>
         {{ content }}
-    </div>
-    <div class="aside">
+    </main>
+    <aside>
         <h3>Resent Posts</h3>
         {% for post in site.posts %}
         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
-    </div>
-    <div class="footer">
+    </aside>
+    <footer>
         <p>Copyright &copy; 2024-2025 Algonquin College, BISI, Olga Durham</p>
-    </div>
+    </footer>
 </div>
 <script>
     function myFunction() {
