@@ -5,13 +5,14 @@
     /* set background image*/
     body {
         background-image: url('{{ site.baseurl }}/assets/img/bg.jpg');
-        height: 100vh;
+        min-height: 100vh;
         background-repeat: no-repeat;
-        width: 100%;
+        /*width: 100%*/;
         background-size: cover;
         background-position: center;
         margin: 0;
         padding: 0;
+        background-attachment: fixed;
     }
     .container {
         max-width: 1100px;
