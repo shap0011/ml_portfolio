@@ -5,8 +5,6 @@
 layout: home
 permalink: /index.html
 ---
-<div>
 <p>Click [here]({{ site.baseurl }}/intro.html) to read Intro.</p>
 
 <img src="/ml_portfolio/assets/img/olga-durham-beach-170-800x.jpg" class="img-responsive" alt="The Ocean">
-</div>
