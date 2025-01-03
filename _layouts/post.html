@@ -121,7 +121,7 @@
         height: auto;
         display: block;
     }
-    @media (max-width: 1200px) {
+    @media (max-width: 768px) {
         .container {
             width: 100%;
             padding: 15px;
@@ -135,6 +135,12 @@
         }
         .img-responsive {
             max-height: 50%; 
+        }
+        a, p, h1, h2, h3, h4, h5, h6, details, label, summary {
+            font-size: 1rem !important; /* Set to 16px on mobile */
+        }
+        .topnav, .topnav a, button, footer {
+            font-size: 1rem !important; /* Ensure uniform font size */
         }
     }
 </style>
