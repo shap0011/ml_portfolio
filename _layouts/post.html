@@ -178,10 +178,12 @@
         {{ content }}
     </main>
     <aside>
-        <h3>Resent Posts</h3>
-        {% for post in site.posts %}
-        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
+        <div>
+            <h3>Resent Posts</h3>
+            {% for post in site.posts %}
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </div>
     </aside>
     <footer>
         <p>Copyright &copy; 2024-2025 Algonquin College, BISI, Olga Durham</p>
