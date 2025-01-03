@@ -112,15 +112,18 @@
     }
     .img-responsive {
         max-width: 100%;
-        max-height: 90%;
+        height: auto;
         display: block;
     }
-    @media (max-width: 900px) {
+    @media (max-width: 1200px) {
         main {
             width: 100%;
         }
         aside {
             width: 100%;
+        }
+        .img-responsive {
+            max-height: 50%; 
         }
     }
 </style>
