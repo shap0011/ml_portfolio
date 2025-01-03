@@ -125,17 +125,15 @@
         .container {
             display: flex;
             flex-direction: column;
-            width: 100%;
+            width: 80%;
             padding: 20px;
-            margin-left: 20px;
-            margin-right: 20px;
         }
-        main.clear {
+        main {
             clear: left;
             width: 100%; 
             order: 1;
         }
-        aside.clear {
+        aside {
             clear: right;
             width: 100%;
             order: 2;
@@ -167,10 +165,10 @@
             </a>
         </div>
     </header>
-    <main class="clear">
+    <main>
         {{ content }}
     </main>
-    <aside class="clear">
+    <aside>
         <h3>Resent Posts</h3>
         {% for post in site.posts %}
         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
