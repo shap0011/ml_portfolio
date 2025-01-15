@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Model Training"
-date:   2025-01-14 13:26:19 -0500
+date:   2025-01-10 13:26:19 -0500
 categories: jekyll update
 author: "Olga Durham"
 ---
