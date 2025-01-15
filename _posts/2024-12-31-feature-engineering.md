@@ -10,7 +10,7 @@ author: "Olga Durham"
 
 [Click to open the file...](https://github.com/shap0011/machine_learning_fall_2024/blob/main/Feature_Engineering_Solution.ipynb)
 
-This project, <code>Feature_Engineering_Solution.ipynb</code> file, focuses on feature engineering techniques, leveraging domain knowledge and data manipulation to enhance predictive modeling for real estate pricing.
+This project, the <code>Feature_Engineering_Solution.ipynb</code> file, focuses on feature engineering techniques, leveraging domain knowledge and data manipulation to enhance predictive modeling for real estate pricing.
 
 <details>
   <summary>Click to see details</summary>
